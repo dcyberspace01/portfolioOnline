@@ -1,0 +1,155 @@
+body {
+  margin: 0px;
+  justify-items: center;
+  
+ 
+  
+}
+
+.top-bar {
+      font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: none;
+  width: 100%;
+  height: 17vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+  font-size: 25px;
+  text-wrap: nowrap;
+}
+
+.top-bar .logo {
+      font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+
+.top-bar .top-bar-main-container {
+
+display: flex;
+justify-content: right;
+align-items: center;
+width: auto;
+height: auto;
+
+
+}
+
+.top-bar .top-bar-main-container .child-1 {
+
+  display: flex;
+  gap: 15px;
+      font-family: "Poppins", sans-serif;
+
+}
+
+.top-bar .top-bar-main-container div button{
+  
+  margin-right: 30px;
+  background: none;      /* Removes background */
+  border: none;          /* Removes border */
+  color: black;        /* Keeps text color same as parent */
+  font: inherit;         /* Matches text style to surrounding text */
+  padding: 0;            /* Removes extra space */
+  cursor: pointer;       /* Maintains clickable behavior */
+  
+      gap: 2rem;
+    
+    font-size: 1.5rem;
+}
+
+
+.profile-links {
+  display: flex;
+  margin-top: 5%;
+  width: 100%;
+  justify-content: center;
+}
+
+.profile-links a{
+  
+  text-decoration: none;
+
+}
+
+.profile {
+
+
+display: flex;
+justify-content: center;
+gap: 7rem;
+height: 70vh;
+
+}
+
+
+.profile .section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+.profile .section__pic-container img{
+  border-radius: 50%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width:400px;
+    height: 400px;
+
+}
+
+.profile .section-text {
+    font-family: "Poppins", sans-serif;
+    align-self: center;
+    text-align: center;
+        font-weight: 600;
+}
+.profile .section-text .button-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.profile .section-text .button-container button{
+   background: none;
+   cursor: pointer;
+       font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    
+}
+
+.profile .section-text h1 {
+          font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+.profile .section-text p {
+      color: rgb(85, 85, 85);
+}
+.profile .section-text .fed {
+      color: rgb(85, 85, 85);
+}
+
+.profile .section-text .socials-container{
+
+      display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+
+}
+.profile .section-text .socials-container a img{
+  
+    cursor: pointer;
+    height: 2rem;
+}
+
